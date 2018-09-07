@@ -1,0 +1,162 @@
+/* line 4, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+body, html {
+  height: 100%;
+  background-color: #ddd;
+}
+
+/* line 9, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+h1, h2, h3, h4, h5, h6, p, body {
+  font-size: 14px;
+  color: #4a4a4a;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 23, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.wrapper {
+  min-width: 960px;
+}
+
+/* line 27, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+header {
+  height: 46px;
+  background-color: white;
+  /*border-bottom: 2px solid #bbb;*/
+}
+
+/* line 33, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+h1 {
+  height: 46px;
+  line-height: 46px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* line 40, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+h2 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* line 47, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.contents {
+  height: 100%;
+  width: 600px;
+  margin: 5px auto 0;
+  background-color: white;
+}
+
+/* line 54, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+form {
+  width: 600px;
+  background-color: white;
+  padding: 5px 0 0;
+}
+
+/* line 60, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.input-box {
+  float: left;
+  width: 500px;
+}
+
+/* line 65, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.input-box input {
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+/* line 70, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+form img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  height: 24px;
+  margin: 0 5px 5px 34px;
+}
+
+/* line 78, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.submit-button {
+  width: 70px;
+  margin: 10px 25px 0 0;
+}
+
+/* line 83, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+form textarea {
+  width: 500px;
+  border: 1px solid #ccc;
+}
+
+/* line 88, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.button-box {
+  float: right;
+  height: 70px;
+}
+
+/* line 93, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.message {
+  min-height: 100px;
+  width: 598px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-bottom: none;
+}
+
+/* line 102, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.message img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  height: 48px;
+  margin: 10px;
+}
+
+/* line 110, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.message_box {
+  float: left;
+  height: 100px;
+  width: 505px;
+  padding: 9px 0 10px;
+}
+
+/* line 117, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.user_name {
+  font-weight: bold;
+  line-height: 18px;
+}
+
+/* line 122, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.time {
+  color: #bbb;
+}
+
+/* line 126, /Users/suginofumiya/projects/nekotter/app/assets/stylesheets/tweets.scss */
+.text {
+  line-height: 18px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
